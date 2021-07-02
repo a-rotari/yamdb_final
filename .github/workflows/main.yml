@@ -5,7 +5,7 @@ on: push
 jobs:
   tests:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v2
       - name: set-up-python
@@ -19,6 +19,5 @@ jobs:
       - name: test-with-flake8-and-django-tests
         run: |
           python -m flake8
-          cd infra_project/
+          cd api_yamdb/
           python manage.py test
-  
