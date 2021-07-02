@@ -1,4 +1,4 @@
-name: YaMDB-workflow
+name: yamdb-workflow
 
 on: push
 
