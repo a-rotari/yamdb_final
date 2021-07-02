@@ -1,3 +1,5 @@
+[![YaMDB-workflow Actions Status](https://github.com/a-rotari/yamdb_final/workflows/yamdb_final/badge.svg)](https://github.com/a-rotari/yamdb_final/actions)
+
 # Проект YaMDb
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
