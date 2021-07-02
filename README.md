@@ -1,4 +1,4 @@
-[![YaMDB-workflow Actions Status](https://github.com/a-rotari/yamdb_final/workflows/yamdb_final/badge.svg)](https://github.com/a-rotari/yamdb_final/actions)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/a-rotari/yamdb_final/yamdb-workflow)
 
 # Проект YaMDb
 
