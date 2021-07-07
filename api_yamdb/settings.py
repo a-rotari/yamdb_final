@@ -13,9 +13,13 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', default='very_secret_key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '').split(',')
-ALLOWED_HOSTS = [] if not any(ALLOWED_HOSTS) else ALLOWED_HOSTS
-# ALLOWED_HOSTS = ['arotari.com']
+
+# здесь значение allowed_hosts зависит не от имени хоста, а от того
+# как к django обращается nginx
+# в данном случае: proxy_pass http://web:8000;
+# ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '').split(',')
+# ALLOWED_HOSTS = [] if not any(ALLOWED_HOSTS) else ALLOWED_HOSTS
+ALLOWED_HOSTS = ['web']
 
 # Application definition
 
